@@ -1,0 +1,63 @@
+/* General Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #7ac77d; /* Light green */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 800px;
+    background-color: #bdf5bd; /* Light green background */
+    padding: 20px;
+    border: 3px solid #000; /* Black border around the entire container */
+    box-sizing: border-box;
+}
+
+/* Title Styling */
+h1 {
+    font-size: 2em;
+    color: #006400; /* Dark green */
+    margin-bottom: 20px;
+}
+
+/* Section Styling */
+.section {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+/* Borders for Sections */
+.border {
+    border: 3px solid #000; /* Black border around specific sections */
+}
+
+/* Links Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0000ff; /* Blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff4500; /* Orange hover effect */
+}
+
+/* Footer Styling */
+footer
